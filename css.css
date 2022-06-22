@@ -1,0 +1,82 @@
+body{
+	background:linear-gradient(135deg, #65799b 0%, #5e2563 100%);
+}
+
+#match-list{
+	background:#622774;
+	width: 400px;
+}
+.container mt-5{
+	width: 600px;
+}
+
+.title{
+	margin-left: 30%;
+}
+
+.container{
+	margin-left: 20%;
+  display: inline;
+  
+  
+}
+
+.search-box{
+		width: 400px;
+	left:500px;
+	right: 500px;
+	position: absolute;
+	transform: translate(-500px,-50px);
+	background: #2f3640;
+	height: 20px;
+	border-radius: 40px;
+	padding: 10px; 
+	color: white;
+	margin-left: 520px;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% 40%; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  background: red;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  background: red;
+}
+#match-list{
+  margin-left: 39%;
+}
